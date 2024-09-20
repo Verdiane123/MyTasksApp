@@ -1,11 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-sm" style="background-color: #0d6efd">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"
+      <router-link to="/" class="navbar-brand"
         ><i style="font-weight: bold"
           ><span style="color: white">My </span
           ><span style="color: #ffc107">TasksApp</span></i
-        ></a
+        ></router-link
       >
       <button
         class="navbar-toggler"
@@ -21,7 +21,7 @@
             <router-link class="nav-link" style="color: white" to="/create-task">Créer une tâche</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" style="color: white" to="/tasks">Liste des tâches</router-link>
+            <router-link class="nav-link" style="color: white" to="/">Liste des tâches</router-link>
           </li>
         </ul>
       </div>

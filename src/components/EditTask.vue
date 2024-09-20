@@ -38,7 +38,7 @@ async function updateTask() {
 
     if (response.ok) {
       alert('Yep ! 😇 Mise à jour réussie');
-      router.push('/tasks');
+      router.push('/');
     } else {
       console.error('Petite erreur lors de la MAJ de la tâche');
     }

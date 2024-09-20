@@ -27,7 +27,7 @@ async function createTask() {
     const result = await response.json();
     if (response.ok) {
       alert(`Génial !🥳 Tâche créée avec l'ID: ${result.id}`);
-      router.push('/tasks');
+      router.push('/');
       form.value.name = "";
       form.value.description = "";
     } else {
